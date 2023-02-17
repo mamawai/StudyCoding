@@ -26,6 +26,12 @@
             <artifactId>disruptor</artifactId>
             <version>3.4.2</version>
         </dependency>
+        <dependency>
+            <groupId>io.github.domstolene.esas</groupId>
+            <artifactId>validering-jwks</artifactId>
+            <version>20012023.69fe65f</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 

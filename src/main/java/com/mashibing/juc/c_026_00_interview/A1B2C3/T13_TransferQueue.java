@@ -9,10 +9,10 @@ public class T13_TransferQueue {
         char[] aC = "ABCDEFG".toCharArray();
 
         TransferQueue<Character> queue = new LinkedTransferQueue<Character>();
-        new Thread(()->{
+        new Thread(() -> {
             try {
                 for (char c : aI) {
-                    System.out.print(queue.take());
+                    System.out.println(queue.take() + "t1");
                     queue.transfer(c);
                 }
 
@@ -21,11 +21,11 @@ public class T13_TransferQueue {
             }
         }, "t1").start();
 
-        new Thread(()->{
+        new Thread(() -> {
             try {
                 for (char c : aC) {
                     queue.transfer(c);
-                    System.out.print(queue.take());
+                    System.out.println(queue.take() + "t2");
                 }
 
             } catch (InterruptedException e) {

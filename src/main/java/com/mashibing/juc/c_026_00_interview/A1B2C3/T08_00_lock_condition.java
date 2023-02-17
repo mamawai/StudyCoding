@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class T08_00_lock_condition {
+public class   T08_00_lock_condition {
 
     public static void main(String[] args) {
 
@@ -14,6 +14,7 @@ public class T08_00_lock_condition {
 
         Lock lock = new ReentrantLock();
         Condition condition = lock.newCondition();
+        //condition就是队列
 
         new Thread(()->{
             try {
@@ -21,7 +22,9 @@ public class T08_00_lock_condition {
 
                 for(char c : aI) {
                     System.out.print(c);
-                    condition.signal();
+                    if (c != '3') {
+                        condition.signal();
+                    }
                     condition.await();
                 }
 

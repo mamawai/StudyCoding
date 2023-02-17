@@ -21,8 +21,9 @@ public class T09_00_lock_condition {
 
         new Thread(()->{
             try {
-                lock.lock();
+                lock.lock();//加锁
 
+                conditionT1.await();
                 for(char c : aI) {
                     System.out.print(c);
                     conditionT2.signal();

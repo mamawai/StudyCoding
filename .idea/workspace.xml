@@ -1,87 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Disruptor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JMH.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java" afterDir="false" />
+    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="2019年11月10日的更新">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/JustTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventProducer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/LongEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T03_Sleep_Yield_Join.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T04_ThreadState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_002/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_005/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_007/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_008/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_009/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_010/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_011/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T03________VolatileReference2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T04_VolatileNotSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T05_VolatileVsSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_016_LockOptimization/FineCoarseLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/SyncSameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T01_AtomicInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe$M.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T01_ReentrantLock1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T02_ReentrantLock2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T03_ReentrantLock3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T06_TestCountDownLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T08_TestPhaser$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2$MarriagePhaser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T10_TestReadWriteLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T11_TestSemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T12_TestExchanger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T13_TestLockSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T08_Semaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_01_interview/MyContainer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_023/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T01_ConcurrentMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T03_SynchronizedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T04_ConcurrentQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T01_Future.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T02_ListenableFuture$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JUC.kotlin_module" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,22 +31,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JUC" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Disruptor.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,6 +57,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_33_TheDinningMan/T01_DeadLock.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_33_TheDinningMan/ChopStick.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/SyncSameObject.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,16 +121,10 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -224,6 +146,7 @@
     <option name="width" value="1932" />
     <option name="height" value="1092" />
   </component>
+  <component name="ProjectId" id="2Liq5IHF63DxTy9TZA5WOibhQTR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,18 +169,31 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19058296" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\juc\c_026_01_ThreadPool" />
+      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\juc\c_022_RefTypeAndThreadLocal" />
+      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v4" />
+      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\" />
+      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v3" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mashibing.juc.c_020" />
       <recent name="com.mashibing" />
@@ -269,33 +205,14 @@
       <recent name="com.mashibing.juc.c_020" />
       <recent name="com.mashibing.juc.c_012_Volatile" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\juc\c_026_01_ThreadPool" />
-      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\juc\c_022_RefTypeAndThreadLocal" />
-      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v4" />
-      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\" />
-      <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v3" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Tets">
-    <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T01_CacheLinePadding" />
+  <component name="RunManager" selected="Application.T00_F3">
+    <configuration name="ABC10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.ABC10" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_026_00_interview.A1B2C3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +220,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T02_CacheLinePadding" />
+    <configuration name="T00_F1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F1" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T00_F2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F2" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T00_F3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F3" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,49 +272,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.Tets" />
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteCombining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_029_WriteCombining.WriteCombining" />
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_029_WriteCombining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ABC10" />
       <item itemvalue="Application.T13_TransferQueue" />
-      <item itemvalue="Application.T01_CacheLinePadding" />
-      <item itemvalue="Application.T02_CacheLinePadding" />
-      <item itemvalue="Application.WriteCombining" />
-      <item itemvalue="Application.Tets" />
+      <item itemvalue="Application.T00_F1" />
+      <item itemvalue="Application.T00_F2" />
+      <item itemvalue="Application.T00_F3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tets" />
-        <item itemvalue="Application.WriteCombining" />
-        <item itemvalue="Application.T02_CacheLinePadding" />
-        <item itemvalue="Application.T01_CacheLinePadding" />
+        <item itemvalue="Application.T00_F3" />
+        <item itemvalue="Application.T00_F2" />
+        <item itemvalue="Application.T00_F1" />
         <item itemvalue="Application.T13_TransferQueue" />
+        <item itemvalue="Application.ABC10" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -385,6 +303,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565232818446</updated>
+      <workItem from="1676364068149" duration="791000" />
+      <workItem from="1676509770061" duration="4796000" />
+      <workItem from="1676516273628" duration="1979000" />
+      <workItem from="1676518284996" duration="16041000" />
+      <workItem from="1676595798407" duration="10511000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -495,6 +418,21 @@
       <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" visible="true" weight="0.20975609" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />
     <MESSAGE value="2019年9月8日的更新" />
@@ -511,29 +449,44 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T11_TestSemaphore.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>126</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
           <line>807</line>
-          <properties />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/ABC10.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/ABC10.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/ABC10.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java">
@@ -548,14 +501,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T13_ThreadPoolExecutor.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29417">
           <caret line="1334" column="33" selection-start-line="1334" selection-start-column="33" selection-end-line="1334" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/LinkedBlockingQueue.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4531">
           <caret line="241" column="11" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
@@ -573,21 +526,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/Stream.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/Collection.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="731" selection-start-line="731" selection-end-line="731" />
@@ -597,14 +550,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.instrument/sun/instrument/InstrumentationImpl.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.instrument/sun/instrument/InstrumentationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="546" selection-start-line="546" selection-end-line="546" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/ForEachOps.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/ForEachOps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="250" column="21" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="21" />
@@ -615,28 +568,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/Tripwire.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/Tripwire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/TerminalOp.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/TerminalOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1051">
           <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2456">
           <caret line="232" column="37" lean-forward="true" selection-start-line="232" selection-start-column="37" selection-end-line="232" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="501" column="11" selection-start-line="501" selection-start-column="11" selection-end-line="501" selection-end-column="11" />
@@ -650,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/ThreadPoolExecutor源码解析.md">
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ScheduledThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="456" column="5" lean-forward="true" selection-start-line="456" selection-start-column="5" selection-end-line="456" selection-end-column="5" />
@@ -678,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
           <caret line="127" column="53" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="53" />
@@ -710,21 +663,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/RecursiveAction.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/RecursiveAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3013">
           <caret line="164" column="37" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ForkJoinTask.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ForkJoinTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="205" column="34" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11500">
           <caret line="553" column="34" selection-start-line="553" selection-start-column="34" selection-end-line="553" selection-end-column="34" />
@@ -746,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/RejectedExecutionHandler.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/RejectedExecutionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="60" column="35" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="35" />
@@ -868,14 +821,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="344" column="23" selection-start-line="344" selection-start-column="23" selection-end-line="344" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="517" column="47" selection-start-line="517" selection-start-column="47" selection-end-line="517" selection-end-column="47" />
@@ -886,14 +839,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="181" column="57" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="2457" column="25" selection-start-line="2457" selection-start-column="25" selection-end-line="2457" selection-end-column="25" />
