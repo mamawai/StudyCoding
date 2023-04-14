@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T00_F2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T00_F3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T06_03_AliQust.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/TestClass.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/mashibing/juc/RunThread.java" charset="GBK" />
+  </component>
 </project>

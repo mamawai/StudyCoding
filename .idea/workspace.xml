@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="2019年11月10日的更新">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mashibing/juc/RunThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JUC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_000/T01_WhatIsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_000/T01_WhatIsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/ABC10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/ABC10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T00_F3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T00_F3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T06_03_AliQust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_32_AliQuestions/T06_03_AliQust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/util/SleepHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/util/SleepHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +26,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JUC" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Sequence" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,6 +52,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_33_TheDinningMan/T01_DeadLock.java" root0="FORCE_HIGHLIGHTING" />
@@ -120,6 +123,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -174,18 +180,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.19058296" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "afcda3fd308b15067b00b7804c7abba9",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\juc\c_026_01_ThreadPool" />
@@ -195,6 +197,8 @@
       <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mashibing.juc" />
+      <recent name="com.mashibing.juc.c_32_AliQuestions" />
       <recent name="com.mashibing.juc.c_020" />
       <recent name="com.mashibing" />
     </key>
@@ -206,7 +210,7 @@
       <recent name="com.mashibing.juc.c_012_Volatile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T00_F3">
+  <component name="RunManager" selected="Application.ABC10">
     <configuration name="ABC10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.ABC10" />
       <module name="JUC" />
@@ -220,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T00_F1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F1" />
+    <configuration name="T01_WhatIsThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_000.T01_WhatIsThread" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T00_F2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F2" />
+    <configuration name="T02_HowToCreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_000.T02_HowToCreateThread" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,46 +250,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T00_F3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_32_AliQuestions.T00_F3" />
+    <configuration name="RunThread.TestThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_32_AliQuestions.*" />
+          <option name="PATTERN" value="com.mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.juc" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.RunThread" />
+      <option name="METHOD_NAME" value="TestThread" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T13_TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T13_TransferQueue" />
+    <configuration name="RunThread.phoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_00_interview.A1B2C3.*" />
+          <option name="PATTERN" value="com.mashibing.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.juc" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.RunThread" />
+      <option name="METHOD_NAME" value="phoneTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.T01_WhatIsThread" />
+      <item itemvalue="Application.T02_HowToCreateThread" />
       <item itemvalue="Application.ABC10" />
-      <item itemvalue="Application.T13_TransferQueue" />
-      <item itemvalue="Application.T00_F1" />
-      <item itemvalue="Application.T00_F2" />
-      <item itemvalue="Application.T00_F3" />
+      <item itemvalue="JUnit.RunThread.TestThread" />
+      <item itemvalue="JUnit.RunThread.phoneTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T00_F3" />
-        <item itemvalue="Application.T00_F2" />
-        <item itemvalue="Application.T00_F1" />
-        <item itemvalue="Application.T13_TransferQueue" />
         <item itemvalue="Application.ABC10" />
+        <item itemvalue="JUnit.RunThread.TestThread" />
+        <item itemvalue="JUnit.RunThread.phoneTest" />
+        <item itemvalue="Application.T02_HowToCreateThread" />
+        <item itemvalue="Application.T01_WhatIsThread" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +317,20 @@
       <workItem from="1676509770061" duration="4796000" />
       <workItem from="1676516273628" duration="1979000" />
       <workItem from="1676518284996" duration="16041000" />
-      <workItem from="1676595798407" duration="10511000" />
+      <workItem from="1676595798407" duration="12460000" />
+      <workItem from="1676855271947" duration="13613000" />
+      <workItem from="1676874933076" duration="5955000" />
+      <workItem from="1676941054951" duration="24287000" />
+      <workItem from="1677114241968" duration="9480000" />
+      <workItem from="1677133545241" duration="17000" />
+      <workItem from="1677133590195" duration="1414000" />
+      <workItem from="1677475700507" duration="2606000" />
+      <workItem from="1677485728064" duration="857000" />
+      <workItem from="1680057170011" duration="1127000" />
+      <workItem from="1681456534749" duration="18000" />
+      <workItem from="1681457173029" duration="41000" />
+      <workItem from="1681463858343" duration="23000" />
+      <workItem from="1681463993482" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -358,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573357300351</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019年11月10日的更新">
+      <created>1676612457178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676612457178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -431,7 +461,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />

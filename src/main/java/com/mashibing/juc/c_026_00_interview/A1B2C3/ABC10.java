@@ -64,7 +64,7 @@ public class ABC10 {
                     co0.signal();
                     co2.await();
                 }
-                co1.signal();
+//                co1.signal();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {

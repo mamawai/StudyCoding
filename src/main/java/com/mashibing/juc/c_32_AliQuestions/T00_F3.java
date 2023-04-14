@@ -2,6 +2,7 @@ package com.mashibing.juc.c_32_AliQuestions;
 
 
 import com.mashibing.util.SleepHelper;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,28 +14,38 @@ import java.util.List;
 
 public class T00_F3 {
 
+    static Logger logger = Logger.getLogger(T00_F3.class);
     private static class Boss extends Thread{
-        private List<Worker> tasks = new ArrayList<>();
+        private List<Worker> workers = new ArrayList<>();
 
         public void addTask(Worker t){
-            tasks.add(t);
+            workers.add(t);
         }
         @Override
         public void run() {
-            tasks.stream().forEach(t->t.start());
+            workers.stream().forEach(t->t.start());
         }
         //取消了监视 变成了通知
         public void end(Worker worker){
             if (worker.getResult() == Result.FAILED){
-                System.exit(0);
+                logger.info(worker.name+" 任务失败");
+                /*System.exit(0);*///退出不优雅
+                cancel(worker);
+            }
+        }
+        private void cancel(Worker worker){
+            for (Worker w : workers){
+                if (w != worker){
+                    w.cancel();
+                }
             }
         }
     }
 
     public static void main(String[] args) throws IOException {
         Boss boss = new Boss();
-        Worker t1 = new Worker(boss, "t1", 30, true);
-        Worker t2 = new Worker(boss, "t2", 50, true);
+        Worker t1 = new Worker(boss, "t1", 3, true);
+        Worker t2 = new Worker(boss, "t2", 7, true);
         Worker t3 = new Worker(boss, "t3", 1, false);
 
 
@@ -47,10 +58,11 @@ public class T00_F3 {
 
     }
     private static enum Result{
-        NOEND,SUCCESSED,FAILED
+        NOEND,SUCCESSED,FAILED,CANCELLED
     }
     private static class Worker extends Thread{
         private Result result = Result.NOEND;
+        private volatile  boolean cancelling = false;
 
         private Boss boss;
         private String name;
@@ -68,10 +80,36 @@ public class T00_F3 {
 
         @Override
         public void run() {
-            SleepHelper.sleepSeconds(time);
-            System.out.println(name + "任务结束");
-            result = success ? Result.SUCCESSED: Result.FAILED;
+            int interval = 100;
+            int total = 0;
+
+            for (;;) {
+                SleepHelper.sleepMilli(interval);
+                total+=interval;
+                if (total/1000>=time) {
+                    result = success ? Result.SUCCESSED: Result.FAILED;
+                    if (result == Result.SUCCESSED) {
+                        System.out.println(name + "任务结束");
+                    }
+                    break;
+                }
+                if (cancelling){
+                    rollback();
+                    result = Result.CANCELLED;
+                    cancelling = false;
+                    logger.info(name+"任务结束"+result);
+                    break;
+                }
+            }
             boss.end(this);
+        }
+        private  void rollback(){
+            logger.info(name+" rollback start...");
+            SleepHelper.sleepMilli(500);
+            logger.info(name+" rollback end...");
+        }
+        public void cancel(){
+            cancelling =true;
         }
     }
 
