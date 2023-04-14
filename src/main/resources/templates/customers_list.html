@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+</head>
+<body>
+<table border="1" cellpadding="0" cellspacing="0" style="text-align:
+center;" id="dataTable">
+
+    <tr>
+        <th colspan="4">Info</th>
+    </tr>
+    <tr>
+        <th>id</th>
+        <th>lastName</th>
+        <th>firstName</th>
+    </tr>
+    <tr th:each="customer : ${customersList}">
+        <td th:text="${customer.id}"></td>
+        <td th:text="${customer.LastName}"></td>
+        <td th:text="${customer.firstName}"></td>
+    </tr>
+</table>
+</body>
+</html>>

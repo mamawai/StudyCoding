@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>请确认订单</title>
+</head>
+<body>
+
+<table border="1" cellpadding="0" cellspacing="0" style="text-align:
+center;" id="dataTable">
+
+    <tr>
+        <th colspan="5">Info</th>
+    </tr>
+    <tr>
+        <th>id</th>
+        <th>order_date</th>
+        <th>total_amount</th>
+        <th>cid</th>
+
+    </tr>
+    <tr>
+        <td th:text="${order.id}"></td>
+        <td th:text="${order.orderDate}"></td>
+        <td th:text="${order.totalAmount}"></td>
+        <td th:text="${order.customer.id}"></td>
+    </tr>
+
+</table>
+
+<form th:action="@{/guide}">
+    <tr>
+        <td colspan="2" >
+            <input class="b_button" type="submit" value="确认">
+        </td>
+    </tr>
+</form>
+<form th:action="@{'/deleteCurrent/'+${order.id}}" method="get" id="form2">
+    <input type="submit" value="取消订单">
+</form>
+<script>
+    var form = document.getElementById("form2");
+    form.onsubmit = function() {
+        var b = confirm("确认删除数据吗");
+        return b === true;
+    }
+
+</script>
+</body>
+</html>>

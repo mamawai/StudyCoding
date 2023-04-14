@@ -23,14 +23,10 @@ public class Mgr03 {
         return INSTANCE;
     }
 
-    public void m() {
-        System.out.println("m");
-    }
-
     public static void main(String[] args) {
-        for(int i=0; i<100; i++) {
-            new Thread(()->
-                System.out.println(Mgr03.getInstance().hashCode())
+        for (int i = 0; i < 100; i++) {
+            new Thread(() ->
+                    System.out.println(Mgr03.getInstance().hashCode())
             ).start();
         }
     }

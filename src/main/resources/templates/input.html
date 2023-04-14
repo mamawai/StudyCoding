@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>input</title>
+</head>
+<body>
+<!--// 表单的提交路径-->
+<form th:action="@{/sendReq}" method="post" id="formId">
+
+    <table style="text-align:center;" id="dataTable">
+    <tr>
+        <th colspan="2">inputReq</th>
+    </tr>
+        <tr>
+            <td>customerId</td>
+            <td>
+                <label for="Id"></label><input type="text" name="customerId" id="Id" >
+            </td>
+        </tr>
+        <tr>
+            <td>totalAmount</td>
+            <td>
+                <label for="Amount"></label><input type="text" name="totalAmount" id="Amount">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="提交">
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    var form = document.getElementById("formId");
+    var inputs = form.getElementsByTagName("input");
+
+    const inputss  = document.querySelectorAll('input');
+    inputss.forEach((input)=>{
+        input.addEventListener("input",function () {
+            const value = this.value;
+
+            //正则匹配输入数据格式
+            const regex = /^[0-9]+(\.\[0-9]+)?$/;
+            const isValid = regex.test(value);
+
+            //判断合法性
+            if (!isValid){
+                this.setCustomValidity("请输入数字和小数点");
+            }else {
+                this.setCustomValidity("");
+            }
+        })
+    });
+    /*const Amount = document.getElementById("Amount");
+    Amount.addEventListener("input",function () {
+        const value = this.value;
+
+        //正则匹配输入数据格式
+        const regex = /^[0-9]+(\.\[0-9]+)?$/;
+        const isValid = regex.test(value);
+
+        //判断合法性
+        if (!isValid){
+            this.setCustomValidity("请输入数字和小数点");
+        }else {
+            this.setCustomValidity("");
+        }
+    })*/
+
+    form.onsubmit = function() {
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].value === "") {
+                alert("请输入" + inputs[i].name);
+                return false;
+            }
+        }
+        alert("跳转到订单确认");
+        return true;
+    }
+</script>
+</body>
+
+</html>

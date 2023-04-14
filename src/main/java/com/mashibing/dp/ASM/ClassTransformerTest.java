@@ -1,12 +1,15 @@
 package com.mashibing.dp.ASM;
 
-import org.objectweb.asm.*;
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.MethodVisitor;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.OutputStream;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm.Opcodes.ASM4;
+import static org.objectweb.asm.Opcodes.INVOKESTATIC;
 
 public class ClassTransformerTest {
     public static void main(String[] args) throws Exception {

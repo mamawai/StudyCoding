@@ -1,34 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/TemplateMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/intepreter/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/memento/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/prototype/v1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/prototype/v2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/prototype/v3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/prototype/v4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v1/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMHappyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMNervousState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMSadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMState.java" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="设计模式继续">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/ChainOfResponsibilityClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/DepartmentHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/GroupLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Ratify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/RealChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/AddChoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/AddMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Seasoning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/ExtraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/OrderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/Specs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/entity/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/entity/SelectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/interceptor/MyWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/interceptor/OrderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/Demand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/Open.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/SoftwareSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/ddd/campusMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/CA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/CB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/CLient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mediatorMMY/dddd/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/AP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/AP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/AP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/BP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/BP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/BP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/CP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/CP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/CP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/F1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/F2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/Factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/GoldUserDis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/OrdinaryUserDis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/PriceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Settlement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/SilverUserDis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/StrategyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Emperor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/TestE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/OneOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/customers_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/warning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_all_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/ClassTransformerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/ClassTransformerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/command/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decorator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v9/TestFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v9/TestFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/singleton/Mgr06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v1/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v1/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/strategy/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app_auto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app_auto.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,115 +139,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMHappyState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMNervousState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MMState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -160,6 +158,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="08c1f802-010c-4bd0-a509-4f2c0dd9103d" />
+        <option name="url" value="https://github.com/bjmashibing/DesignPatterns.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,12 +237,20 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\mamingyang\.m2\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="242" />
     <option name="y" value="4" />
     <option name="width" value="1695" />
     <option name="height" value="1023" />
   </component>
+  <component name="ProjectId" id="2LqxdWR9AuQqEeoV3phrzWm7xf4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -315,21 +342,42 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mashibing/dp/prototype/v4" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "9118e557e212d7a969094a31581a385a",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mashibing.dp.facadeMMY" />
       <recent name="com.mashibing.dp.command" />
       <recent name="com.mashibing.dp.Iterator.v5" />
       <recent name="com.mashibing.dp.factorymethod" />
       <recent name="com.mashibing.dp.simplefactory" />
-      <recent name="com.mashibing.strategy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources\templates" />
+      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v4" />
+      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v3" />
+      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v2" />
+      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\cor\servlet\v4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources" />
+      <recent name="C:\software\git-workspace\DesignPatterns\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mashibing.dp.state.thread" />
@@ -338,38 +386,19 @@
       <recent name="com.mashibing.dp.Iterator.v3" />
       <recent name="com.mashibing.dp.spring" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v4" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v3" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v2" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\cor\servlet\v4" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\cor\servlet\v3" />
-    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Test (3)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.command.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.decoratorMMY.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.command.*" />
+          <option name="PATTERN" value="com.mashibing.dp.decoratorMMY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,60 +406,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.spring.v1.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.spring.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.factorymethod.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v2.Test" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v4.Test" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Test" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -442,12 +419,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.prototype.v1.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ChainOfResponsibilityMMY.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.prototype.v1.*" />
+          <option name="PATTERN" value="com.mashibing.dp.ChainOfResponsibilityMMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ttttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.facadeMMY.ttttt" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.facadeMMY.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.dp.Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,14 +460,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Spring Boot.Demo" />
+        <item itemvalue="Application.ttttt" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -475,6 +479,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556253030883</updated>
+      <workItem from="1676612503075" duration="56000" />
+      <workItem from="1677133563041" duration="24000" />
+      <workItem from="1678151276313" duration="657000" />
+      <workItem from="1678167142230" duration="662000" />
+      <workItem from="1678196899917" duration="2950000" />
+      <workItem from="1678200606451" duration="10953000" />
+      <workItem from="1678249596344" duration="9111000" />
+      <workItem from="1678324067618" duration="1218000" />
+      <workItem from="1678363076247" duration="9292000" />
+      <workItem from="1678414582920" duration="6187000" />
+      <workItem from="1678431567247" duration="6226000" />
+      <workItem from="1678551537595" duration="3268000" />
+      <workItem from="1678669140828" duration="22000" />
+      <workItem from="1678669187962" duration="1821000" />
+      <workItem from="1678756648670" duration="2727000" />
+      <workItem from="1678847006786" duration="848000" />
+      <workItem from="1678932525419" duration="592000" />
+      <workItem from="1679018263548" duration="1259000" />
+      <workItem from="1679554368644" duration="6763000" />
+      <workItem from="1679622584271" duration="8681000" />
+      <workItem from="1679881756718" duration="3175000" />
+      <workItem from="1679885615887" duration="19451000" />
+      <workItem from="1679920943319" duration="20000" />
+      <workItem from="1679921003840" duration="23000" />
+      <workItem from="1679921038166" duration="12646000" />
+      <workItem from="1679965571890" duration="22674000" />
+      <workItem from="1680052144333" duration="4380000" />
+      <workItem from="1680139394720" duration="16005000" />
+      <workItem from="1680187810805" duration="2053000" />
+      <workItem from="1680190088509" duration="499000" />
+      <workItem from="1680225640504" duration="23957000" />
+      <workItem from="1680484727044" duration="20829000" />
+      <workItem from="1680510293899" duration="3966000" />
+      <workItem from="1680570068244" duration="10041000" />
+      <workItem from="1680618529465" duration="15691000" />
+      <workItem from="1680862254034" duration="652000" />
+      <workItem from="1680933226856" duration="9541000" />
+      <workItem from="1681020433240" duration="11906000" />
+      <workItem from="1681117126134" duration="2265000" />
+      <workItem from="1681171993686" duration="13056000" />
+      <workItem from="1681284215468" duration="6771000" />
+      <workItem from="1681354376197" duration="3015000" />
+      <workItem from="1681453493876" duration="762000" />
+      <workItem from="1681454755004" duration="242000" />
+      <workItem from="1681455857852" duration="215000" />
+      <workItem from="1681456081943" duration="200000" />
+      <workItem from="1681456344796" duration="49000" />
+      <workItem from="1681456423064" duration="106000" />
+      <workItem from="1681456555876" duration="37000" />
+      <workItem from="1681456620372" duration="36000" />
+      <workItem from="1681456691059" duration="3000" />
+      <workItem from="1681456957060" duration="117000" />
+      <workItem from="1681457086552" duration="59000" />
+      <workItem from="1681457153110" duration="18000" />
+      <workItem from="1681457407736" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -561,6 +620,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法" />
     <MESSAGE value="设计模式之Singleton和Strategy" />
@@ -573,24 +646,55 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/Main.java</url>
-          <line>12</line>
-          <properties />
+          <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
           <line>245</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
           <line>319</line>
-          <properties />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/dao/CustomerDao.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/dao/OrderDao.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/dao/OrderDao.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/entity/SelectRequest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/OrderController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DesignPatterns$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1680189314981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mashibing.dp.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/bridge/v1/MM.java">
@@ -822,14 +926,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Cloneable.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1510">
           <caret line="224" column="2" lean-forward="true" selection-start-line="224" selection-start-column="2" selection-end-line="224" selection-end-column="2" />
@@ -864,7 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="124" column="25" lean-forward="true" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />

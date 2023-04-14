@@ -1,7 +1,5 @@
 package com.mashibing.dp.Iterator.v5;
 
-import java.util.Iterator;
-
 /**
  * v1:构建一个容器，可以添加对象
  * v2:用链表来实现一个容器
