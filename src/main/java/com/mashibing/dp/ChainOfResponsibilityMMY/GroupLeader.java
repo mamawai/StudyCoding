@@ -9,6 +9,7 @@ public class GroupLeader implements Ratify {
     @Override
     public Result deal(Chain chain) {
         Request request = chain.request();
+        System.out.println();
         System.out.println("GroupLeader=====>request:" + request.toString());
 
         if (request.days() > 1) {
