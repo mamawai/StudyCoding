@@ -12,6 +12,7 @@ public class Main {
         ChainOfResponsibilityClient client = new ChainOfResponsibilityClient();
         Result result = client.execute(request);
 
+        System.out.println("dsajda");
         System.out.println("结果：" + result.toString());
     }
 }
