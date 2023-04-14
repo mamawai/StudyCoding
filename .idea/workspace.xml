@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="设计模式继续">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="2019年11月10日的更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +31,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="JUCcode" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -334,6 +337,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ttttt" />
+      <item itemvalue="Spring Boot.Demo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
