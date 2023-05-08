@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="2019年11月10日的更新" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/ConcreteSubjectA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/ObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/ObserverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/SpecificEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/EmailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/HandlerChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/SignUpUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/UsernameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/ChainOfResponsibilityClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/ChainOfResponsibilityClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/DepartmentHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/DepartmentHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/GroupLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/GroupLeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/RealChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/RealChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Settlement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/mmy/FactoryAndStrategy/Settlement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/observer/v8/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +53,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -58,6 +94,10 @@
         <option name="url" value="https://github.com/bjmashibing/DesignPatterns.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/lombok/Builder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/lombok/eclipse/handlers/HandleBuilder.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -228,31 +268,35 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main/java/com/mashibing/dp/strategy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9118e557e212d7a969094a31581a385a&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;46c893a1bf5d47b2d64ada391254b885&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mashibing.dp.observerMMY.observerAndCOR" />
+      <recent name="com.mashibing.dp.FactoryAndStrategy" />
       <recent name="com.mashibing.dp.facadeMMY" />
       <recent name="com.mashibing.dp.command" />
       <recent name="com.mashibing.dp.Iterator.v5" />
-      <recent name="com.mashibing.dp.factorymethod" />
-      <recent name="com.mashibing.dp.simplefactory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java\com\mashibing\dp\strategy" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java\com\mashibing\dp" />
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources\templates" />
       <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v4" />
       <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v3" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v2" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\cor\servlet\v4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources" />
@@ -271,13 +315,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.mashibing.dp.observerMMY.observerAndCOR.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.decoratorMMY.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.observerMMY.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.decoratorMMY.*" />
+          <option name="PATTERN" value="com.mashibing.dp.observerMMY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Demo" />
+    <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.observer.v9.TestFrame" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.*" />
+          <option name="PATTERN" value="com.mashibing.dp.observer.v9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ChainOfResponsibilityMMY.Main" />
+    <configuration name="com.mashibing.dp.observerMMY.javaObserver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.observerMMY.javaObserver.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.ChainOfResponsibilityMMY.*" />
+          <option name="PATTERN" value="com.mashibing.dp.observerMMY.javaObserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ttttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.facadeMMY.ttttt" />
+    <configuration name="com.mashibing.dp.observerMMY.observerAndCOR.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.observerMMY.observerAndCOR.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.facadeMMY.dao.*" />
+          <option name="PATTERN" value="com.mashibing.dp.observerMMY.observerAndCOR.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="testRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.observerMMY.observerAndCOR.testRegex" />
       <module name="DesignPatterns" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.dp.Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.*" />
+          <option name="PATTERN" value="com.mashibing.dp.observerMMY.observerAndCOR.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,19 +382,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.mashibing.dp.observerMMY.javaObserver.Client" />
+      <item itemvalue="Application.com.mashibing.dp.observerMMY.observerAndCOR.Client" />
+      <item itemvalue="Application.testRegex" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ttttt" />
-      <item itemvalue="Spring Boot.Demo" />
+      <item itemvalue="Application.TestFrame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.Demo" />
-        <item itemvalue="Application.ttttt" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.com.mashibing.dp.observerMMY.observerAndCOR.Client" />
+        <item itemvalue="Application.testRegex" />
+        <item itemvalue="Application.com.mashibing.dp.observerMMY.javaObserver.Client" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.TestFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -420,6 +464,20 @@
       <workItem from="1681457086552" duration="59000" />
       <workItem from="1681457153110" duration="18000" />
       <workItem from="1681457407736" duration="1258000" />
+      <workItem from="1681546036065" duration="7086000" />
+      <workItem from="1681622896604" duration="18558000" />
+      <workItem from="1681709880175" duration="12214000" />
+      <workItem from="1681734202674" duration="2060000" />
+      <workItem from="1681836710580" duration="10412000" />
+      <workItem from="1681898628020" duration="622000" />
+      <workItem from="1681981726801" duration="9853000" />
+      <workItem from="1681992850736" duration="781000" />
+      <workItem from="1682149571134" duration="70000" />
+      <workItem from="1682255188750" duration="265000" />
+      <workItem from="1682327278669" duration="1836000" />
+      <workItem from="1683270014212" duration="8956000" />
+      <workItem from="1683342310381" duration="15667000" />
+      <workItem from="1683508401569" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -477,7 +535,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558879448557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2019年11月10日的更新">
+      <created>1681992406152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681992406152</updated>
+    </task>
+    <task id="LOCAL-00010" summary="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现">
+      <created>1681993063839</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681993063839</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +597,9 @@
     <MESSAGE value="设计模式之Singleton和Strategy" />
     <MESSAGE value="设计模式之Factory系列，FactoryMethod, AbstractFactory，以及spring bean工厂开头" />
     <MESSAGE value="设计模式继续" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式继续" />
+    <MESSAGE value="2019年11月10日的更新" />
+    <MESSAGE value="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,6 +643,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/facadeMMY/OrderController.java</url>
           <line>58</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/ChainOfResponsibilityMMY/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Client.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Client.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/Client.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/EmailHandler.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

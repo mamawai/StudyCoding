@@ -36,9 +36,11 @@ public class RealChain implements Ratify.Chain {
     public Result proceed(Request request) {
         Result proceed = null;
         if (ratifyList.size() > index) {
-            RealChain realChain = new RealChain(ratifyList, request, index + 1);
-            Ratify ratify = ratifyList.get(index);
-            proceed = ratify.deal(realChain);
+            this.request = request;
+            this.index = index+1;
+//            RealChain realChain = new RealChain(ratifyList, request, index + 1);
+            Ratify ratify = ratifyList.get(index-1);
+            proceed = ratify.deal(this);
         }
 
         return proceed;

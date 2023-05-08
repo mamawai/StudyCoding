@@ -17,6 +17,7 @@ class Child {
 
     public void wakeUp() {
         cry = true;
+        // 观察者们
         dad.feed();
         dog.wang();
         mum.hug();

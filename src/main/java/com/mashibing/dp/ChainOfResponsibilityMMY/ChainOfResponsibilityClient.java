@@ -28,12 +28,10 @@ public class ChainOfResponsibilityClient {
      * @return
      */
     public Result execute(Request request) {
-        ArrayList<Ratify> arrayList = new ArrayList<Ratify>();
-        arrayList.addAll(ratifies);
+        ArrayList<Ratify> arrayList = new ArrayList<>(ratifies);
         arrayList.add(new GroupLeader());
         arrayList.add(new Manager());
         arrayList.add(new DepartmentHeader());
-
 
         RealChain realChain = new RealChain(arrayList, request, 0);
         return realChain.proceed(request);
