@@ -6,7 +6,7 @@ import java.util.UUID;
 
 class Bullet{
     public UUID id = UUID.randomUUID();
-    boolean living = true;
+    boolean living = false;
 
     @Override
     public String toString() {
@@ -23,9 +23,8 @@ public class BulletPool {
     }
 
     public Bullet getBullet() {
-        for(int i=0; i<bullets.size(); i++) {
-            Bullet b = bullets.get(i);
-            if(!b.living) return b;
+        for (Bullet b : bullets) {
+            if (!b.living) return b;
         }
 
         return new Bullet();
@@ -37,6 +36,13 @@ public class BulletPool {
         for(int i=0; i<10; i++) {
             Bullet b = bp.getBullet();
             System.out.println(b);
+        }
+        System.out.println("-------------");
+        for (Bullet bullet : bp.bullets){
+            System.out.println(bullet);
+        }
+        for (Bullet bullet : bp.bullets){
+            System.out.println(bullet);
         }
     }
 

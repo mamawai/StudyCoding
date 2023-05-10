@@ -65,7 +65,7 @@ public class Main {
         b.p();
 
         if(b instanceof BranchNode) {
-            for (Node n : ((BranchNode)b).nodes) {
+            for (Node n : ((BranchNode) b).nodes) {
                 tree(n, depth + 1);
             }
         }
