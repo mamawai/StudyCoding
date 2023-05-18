@@ -12,6 +12,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
@@ -19,6 +20,7 @@ import java.util.Date;
 import java.util.List;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass = true)
 @Slf4j
 public class Demo {
     public static void main(String[] args) throws UnknownHostException {

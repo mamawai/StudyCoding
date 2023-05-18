@@ -4,23 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="这次提交了观察者以及观察者＋COR模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/MMY/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/MMY/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/MMY/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/MMY/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/ConcreteCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/unsharedFW/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/unsharedFW/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/unsharedFW/GoodOrBad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/unsharedFW/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweightMMY/unsharedFW/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/MonitorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/CglibTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/ProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/AddSuger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/StuInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/staticProxy/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/composite/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweight/BulletPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/flyweight/BulletPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +139,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -250,17 +254,25 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main/java/com/mashibing/dp/strategy&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6068966&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;46c893a1bf5d47b2d64ada391254b885&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -274,11 +286,11 @@
       <recent name="com.mashibing.dp.Iterator.v5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java\com\mashibing\dp\strategy" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java" />
       <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java\com\mashibing\dp" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\java\com\mashibing\dp\strategy" />
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources\templates" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v4" />
-      <recent name="C:\Users\mac\IdeaProjects\DesignPatterns\src\main\java\com\mashibing\dp\prototype\v3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources" />
@@ -297,60 +309,8 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.mashibing.dp.flyweightMMY.unsharedFW.Client">
-    <configuration name="BulletPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.flyweight.BulletPool" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.flyweightMMY.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.flyweightMMY.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.flyweight.TestString" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.mashibing.dp.composite.MMY.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.composite.MMY.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.composite.MMY.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.mashibing.dp.flyweightMMY.unsharedFW.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.flyweightMMY.unsharedFW.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
@@ -363,20 +323,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashMapProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxyMMY.HashMapProxyTest" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.proxyMMY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.cglib.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.proxyMMY.AOP.ProxyTest" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.proxyMMY.AOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.dp.Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.com.mashibing.dp.flyweightMMY.unsharedFW.Client" />
-      <item itemvalue="Application.BulletPool" />
-      <item itemvalue="Application.TestString" />
-      <item itemvalue="Application.com.mashibing.dp.composite.MMY.Client" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.HashMapProxyTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Spring Boot.Demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mashibing.dp.flyweightMMY.unsharedFW.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.BulletPool" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.com.mashibing.dp.composite.MMY.Client" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.Demo" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.HashMapProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,6 +473,16 @@
       <workItem from="1683342310381" duration="15667000" />
       <workItem from="1683508401569" duration="17071000" />
       <workItem from="1683681161541" duration="5223000" />
+      <workItem from="1683695704243" duration="10025000" />
+      <workItem from="1683770136135" duration="15657000" />
+      <workItem from="1684136965574" duration="2829000" />
+      <workItem from="1684221951967" duration="380000" />
+      <workItem from="1684222341581" duration="271000" />
+      <workItem from="1684222619807" duration="9534000" />
+      <workItem from="1684240605591" duration="92000" />
+      <workItem from="1684240710885" duration="107000" />
+      <workItem from="1684281227525" duration="14133000" />
+      <workItem from="1684393150241" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -539,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683515081692</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式">
+      <created>1683695790611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683695790611</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -590,7 +619,8 @@
     <MESSAGE value="2019年11月10日的更新" />
     <MESSAGE value="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现" />
     <MESSAGE value="这次提交了观察者以及观察者＋COR模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="这次提交了观察者以及观察者＋COR模式" />
+    <MESSAGE value="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,8 +695,28 @@
           <line>2</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/ProxyTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Class)value (slot_2)).name" custom="java.lang.Class" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

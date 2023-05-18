@@ -4,6 +4,7 @@ package com.mashibing.dp.proxy.v10;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -43,7 +44,7 @@ public class Tank implements Movable {
     public static void main(String[] args) {
         Tank tank = new Tank();
 
-        System.getProperties().put("jdk.proxy.ProxyGenerator.saveGeneratedFiles","true");
+//        System.getProperties().put("jdk.proxy.ProxyGenerator.saveGeneratedFiles","true");
 
         Movable m = (Movable)Proxy.newProxyInstance(Tank.class.getClassLoader(),
                 new Class[]{Movable.class}, //tank.class.getInterfaces()
@@ -72,7 +73,7 @@ class TimeProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        //Arrays.stream(proxy.getClass().getMethods()).map(Method::getName).forEach(System.out::println);
+//        Arrays.stream(proxy.getClass().getMethods()).map(Method::getName).forEach(System.out::println);
 
         before();
         Object o = method.invoke(m, args);

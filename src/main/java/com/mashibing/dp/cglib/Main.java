@@ -1,8 +1,6 @@
 package com.mashibing.dp.cglib;
 
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.MethodInterceptor;
-import net.sf.cglib.proxy.MethodProxy;
+import net.sf.cglib.proxy.*;
 
 import java.lang.reflect.Method;
 import java.util.Random;
@@ -12,11 +10,17 @@ import java.util.Random;
  */
 public class Main {
     public static void main(String[] args) {
+        Callback[] callbacks = new Callback[] {
+                new TimeMethodInterceptor(), new LogMethodInterceptor()
+        };
+
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(Tank.class);
-        enhancer.setCallback(new TimeMethodInterceptor());
+        enhancer.setCallbacks(callbacks);
+        enhancer.setCallbackFilter(new CallBackFilterImpl());
         Tank tank = (Tank)enhancer.create();
         tank.move();
+        tank.shot();
     }
 }
 
@@ -34,11 +38,46 @@ class TimeMethodInterceptor implements MethodInterceptor {
     }
 }
 
+class LogMethodInterceptor implements MethodInterceptor{
+
+    @Override
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+
+        method.invoke(new Tank(),objects);
+        System.out.println(o.getClass().getSuperclass().getName());
+        System.out.println("Log before");
+        Object result = methodProxy.invokeSuper(o, objects);
+        System.out.println("Log after");
+        return result;
+
+    }
+}
+
+class CallBackFilterImpl implements CallbackFilter{
+
+    @Override
+    public int accept(Method method) {
+        if (method.getName().equals("shot")){
+            return 1;
+        }
+        else {
+            return 0;
+        }
+    }
+}
 class Tank {
     public void move() {
         System.out.println("Tank moving claclacla...");
         try {
             Thread.sleep(new Random().nextInt(10000));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public void shot(){
+        System.out.println("Tank shot biubiubiu...");
+        try {
+            Thread.sleep(new Random().nextInt(5000));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
