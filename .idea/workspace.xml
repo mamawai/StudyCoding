@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/MonitorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/CglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/CglibTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglibBoot/ProxyService.java" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="proxy代理模式学习">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/AddSuger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/StuInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/AOP2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxyMMY/staticProxy/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/decoratorMMY/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/proxy/v10/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,7 +466,7 @@
       <workItem from="1684240605591" duration="92000" />
       <workItem from="1684240710885" duration="107000" />
       <workItem from="1684281227525" duration="14133000" />
-      <workItem from="1684393150241" duration="1076000" />
+      <workItem from="1684393150241" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -568,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683695790611</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="proxy代理模式学习">
+      <created>1684399330998</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684399330998</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +611,8 @@
     <MESSAGE value="G/S/O职责链优惠方式，在策略和工厂模式的基础上实现" />
     <MESSAGE value="这次提交了观察者以及观察者＋COR模式" />
     <MESSAGE value="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式" />
+    <MESSAGE value="proxy代理模式学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy代理模式学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
