@@ -16,14 +16,15 @@ import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
-        Collection c = new ArrayList();
+        Collection<String> c = new ArrayList<>();
         for(int i=0; i<15; i++) {
-            c.add(new String("s" + i));
+            c.add("s" + i);
         }
 
-        Iterator it = c.iterator();
+        Iterator<String> it = c.iterator();
         while(it.hasNext()) {
-            System.out.println(it.next());
+            String next = it.next();
+            System.out.println(next);
         }
     }
 }

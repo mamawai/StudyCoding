@@ -40,7 +40,9 @@ class LinkedList_ {
     }
 
     private class Node {
+        // 存储的真正数据
         private Object o;
+        // 指向的下一个结点
         Node next;
 
         public Node(Object o) {

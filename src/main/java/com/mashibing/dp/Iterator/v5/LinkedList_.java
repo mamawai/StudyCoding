@@ -30,6 +30,10 @@ class LinkedList_ implements Collection_ {
         public Node(Object o) {
             this.o = o;
         }
+
+        public Node(Node next){
+            this.next = next;
+        }
     }
 
     public int size() {
@@ -38,6 +42,25 @@ class LinkedList_ implements Collection_ {
 
     @Override
     public Iterator_ iterator() {
-        return null;
+        return new LinkedListIterator();
+    }
+
+    private class LinkedListIterator implements Iterator_{
+
+        Node currentNode = new Node(head);
+
+        @Override
+        public boolean hasNext() {
+            if ( currentNode.next == null){
+                return false;
+            }
+            return true;
+        }
+
+        @Override
+        public Object next() {
+            currentNode = currentNode.next;
+            return currentNode.o;
+        }
     }
 }

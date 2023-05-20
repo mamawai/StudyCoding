@@ -4,6 +4,7 @@ package com.mashibing.dp.Iterator.v7;
 /**
  * 相比数组，这个容器不用考虑边界问题，可以动态扩展
  */
+@SuppressWarnings("unchecked")
 class ArrayList_<E> implements Collection_<E> {
     E[] objects = (E[])new Object[10];
     //objects中下一个空的位置在哪儿,或者说，目前容器中有多少个元素
@@ -28,7 +29,7 @@ class ArrayList_<E> implements Collection_<E> {
         return new ArrayListIterator();
     }
 
-    private class ArrayListIterator<E> implements Iterator_<E> {
+    private class ArrayListIterator implements Iterator_<E> {
 
         private int currentIndex = 0;
 

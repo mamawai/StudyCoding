@@ -11,9 +11,9 @@ package com.mashibing.dp.Iterator.v5;
 
 public class Main {
     public static void main(String[] args) {
-        Collection_ list = new ArrayList_();
+        Collection_ list = new LinkedList_();
         for(int i=0; i<15; i++) {
-            list.add(new String("s" + i));
+            list.add("s" + i);
         }
         System.out.println(list.size());
 
