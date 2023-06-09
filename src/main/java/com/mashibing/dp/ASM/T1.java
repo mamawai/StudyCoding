@@ -8,6 +8,9 @@ public class T1 {
     int i = 0;
     public void m() {
         int j=1;
+        int k =0;
+        k++;
+        System.out.println(k);
     }
 
 }

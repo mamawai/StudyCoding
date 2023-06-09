@@ -21,9 +21,9 @@ public class ClassWriteTest {
         cw.visitEnd();
         byte[] b = cw.toByteArray();
 
-        MyClassLoader myClassLoader = new MyClassLoader();
-        Class c = myClassLoader.defineClass("pkg.Comparable", b);
-        System.out.println(c.getMethods()[0].getName());
+//        MyClassLoader myClassLoader = new MyClassLoader();
+//        Class c = myClassLoader.defineClass("pkg.Comparable", b);
+//        System.out.println(c.getMethods()[0].getName());
     }
 }
 

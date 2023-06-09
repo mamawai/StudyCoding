@@ -2,6 +2,7 @@ package com.mashibing.dp.ASM;
 
 public class Main {
     public static void main(String[] args) {
-        new T1();
+        T1 t1 = new T1();
+        t1.m();
     }
 }

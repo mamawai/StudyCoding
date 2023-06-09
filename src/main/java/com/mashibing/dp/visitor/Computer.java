@@ -5,7 +5,7 @@ public class Computer {
     ComputerPart memory = new Memory();
     ComputerPart board = new Board();
 
-    public void acccept(Visitor v) {
+    public void acceptVisitor(Visitor v) {
         this.cpu.accept(v);
         this.memory.accept(v);
         this.board.accept(v);
@@ -13,7 +13,7 @@ public class Computer {
 
     public static void main(String[] args) {
         PersonelVisitor p = new PersonelVisitor();
-        new Computer().acccept(p);
+        new Computer().acceptVisitor(p);
         System.out.println(p.totalPrice);
     }
 }

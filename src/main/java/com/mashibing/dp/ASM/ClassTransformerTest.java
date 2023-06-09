@@ -1,12 +1,10 @@
 package com.mashibing.dp.ASM;
 
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.*;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.lang.reflect.Method;
 
 import static org.objectweb.asm.Opcodes.ASM4;
 import static org.objectweb.asm.Opcodes.INVOKESTATIC;
@@ -17,18 +15,22 @@ public class ClassTransformerTest {
                 ClassPrinter.class.getClassLoader().getResourceAsStream("com/mashibing/dp/ASM/Tank.class"));
 
         ClassWriter cw = new ClassWriter(0);
+
         ClassVisitor cv = new ClassVisitor(ASM4, cw) {
             @Override
             public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
                 MethodVisitor mv = super.visitMethod(access, name, descriptor, signature, exceptions);
                 //return mv;
-                return new MethodVisitor(ASM4, mv) {
-                    @Override
-                    public void visitCode() {
-                        visitMethodInsn(INVOKESTATIC, "com/mashibing/dp/ASM/TimeProxy","before", "()V", false);
-                        super.visitCode();
-                    }
-                };
+                if (!name.equals("<init>")) {
+                    return new MethodVisitor(ASM4, mv) {
+                        @Override
+                        public void visitCode() {
+                            visitMethodInsn(INVOKESTATIC, "com/mashibing/dp/ASM/TimeProxy", "before", "()V", false);
+                            super.visitCode();
+                        }
+                    };
+                }
+                else return mv;
             }
         };
 
@@ -37,9 +39,18 @@ public class ClassTransformerTest {
 
         MyClassLoader cl = new MyClassLoader();
         //Class c = cl.loadClass("com.mashibing.dp.ASM.Tank");
-        cl.loadClass("com.mashibing.dp.ASM.TimeProxy");
-        Class c2 = cl.defineClass("com.mashibing.dp.ASM.Tank", b2);
-        c2.getConstructor().newInstance();
+//        cl.loadClass("com.mashibing.dp.ASM.TimeProxy");
+        Class c2 = cl.defineClassFromBytes(b2);
+        // 调用c2的构造方法
+//        c2.getConstructor().newInstance();
+        Method method = c2.getDeclaredMethod("move");
+        method.setAccessible(true);
+        method.invoke(c2.newInstance());
+//        Method[] methods = c2.getMethods();
+//        for (int i = 0; i < methods.length; i++) {
+//
+//            System.out.println(methods[i].getName());
+//        }
 
 
         String path = (String)System.getProperties().get("user.dir");

@@ -5,8 +5,8 @@ public class CA extends Component{
         super(mediator);
     }
 
-    public void send(String messaage) {
-        mediator.sendMessage(messaage,this);
+    public void send(String message) {
+        mediator.sendMessage(message,this);
     }
 
     public void receive(String message) {
