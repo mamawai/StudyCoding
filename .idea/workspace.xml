@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="proxy代理模式学习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/ABC10.java" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="ASM的学习及其他的一些修改">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ConcreteCommandA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ConcreteCommandB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ReceiverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ReceiverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Invoker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/LinkedList_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/LinkedList_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/ArrayList_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/ArrayList_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/Collection_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/Collection_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/LinkedList_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/LinkedList_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Iterator/v7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/spring/v2/TimeProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app_auto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app_auto.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,9 +302,35 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.mashibing.dp.Iterator.v7.Main">
-    <configuration name="ABC10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ABC10" />
+  <component name="RunManager" selected="Application.com.mashibing.dp.CommandMacroMMY.Client">
+    <configuration name="ClassTransformerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ASM.ClassTransformerTest" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.ASM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.bridge.MMYBridge.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.bridge.MMYBridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Invoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Invoker" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -320,11 +343,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Iterator.v2.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.command.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.Iterator.v2.*" />
+          <option name="PATTERN" value="com.mashibing.dp.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,38 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mashibing.dp.Iterator.v1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Iterator.v1.Main" />
+    <configuration name="com.mashibing.dp.CommandMacroMMY.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.CommandMacroMMY.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.Iterator.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.mashibing.dp.Iterator.v5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Iterator.v5.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.Iterator.v5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.mashibing.dp.Iterator.v7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Iterator.v7.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.Iterator.v7.*" />
+          <option name="PATTERN" value="com.mashibing.dp.CommandMacroMMY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,19 +369,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.mashibing.dp.Iterator.v1.Main" />
-      <item itemvalue="Application.com.mashibing.dp.Iterator.v5.Main" />
-      <item itemvalue="Application.com.mashibing.dp.Iterator.v7.Main" />
-      <item itemvalue="Application.ABC10" />
+      <item itemvalue="Application.com.mashibing.dp.CommandMacroMMY.Client" />
+      <item itemvalue="Application.Invoker" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ClassTransformerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mashibing.dp.Iterator.v7.Main" />
-        <item itemvalue="Application.com.mashibing.dp.Iterator.v5.Main" />
+        <item itemvalue="Application.com.mashibing.dp.CommandMacroMMY.Client" />
+        <item itemvalue="Application.Invoker" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.mashibing.dp.Iterator.v1.Main" />
-        <item itemvalue="Application.ABC10" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ClassTransformerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +477,16 @@
       <workItem from="1684281227525" duration="14133000" />
       <workItem from="1684393150241" duration="1982000" />
       <workItem from="1684456833277" duration="3052000" />
-      <workItem from="1684563017280" duration="10342000" />
+      <workItem from="1684563017280" duration="11785000" />
+      <workItem from="1684637025930" duration="2713000" />
+      <workItem from="1684640579285" duration="1678000" />
+      <workItem from="1685327867183" duration="12112000" />
+      <workItem from="1685497028571" duration="15493000" />
+      <workItem from="1685587868922" duration="6714000" />
+      <workItem from="1685672732734" duration="616000" />
+      <workItem from="1686102424846" duration="4266000" />
+      <workItem from="1686187908801" duration="8634000" />
+      <workItem from="1686273113992" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -573,7 +579,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684399330998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Iterator模式学习/附加修改了SpringAOP的一些内容">
+      <created>1684580160323</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684580160323</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Bridge Pattern">
+      <created>1686273272358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686273272358</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ASM的学习及其他的一些修改">
+      <created>1686273463478</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686273463478</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -616,7 +643,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="JUCcode" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -638,7 +665,10 @@
     <MESSAGE value="这次提交了观察者以及观察者＋COR模式" />
     <MESSAGE value="享元模式flyweight pattern&#10;包括了非共享具体享元对象以及有外部状态的享元模式" />
     <MESSAGE value="proxy代理模式学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy代理模式学习" />
+    <MESSAGE value="Iterator模式学习/附加修改了SpringAOP的一些内容" />
+    <MESSAGE value="Bridge Pattern" />
+    <MESSAGE value="ASM的学习及其他的一些修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASM的学习及其他的一些修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,6 +757,25 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/cglib/Main.java</url>
           <line>48</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/Invoker.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/Invoker.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/Main.java</url>
+          <line>3</line>
+          <properties class="com.mashibing.dp.ASM.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
