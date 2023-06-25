@@ -27,12 +27,15 @@ class Person implements Cloneable {
     @Override
     public Object clone() throws CloneNotSupportedException {
         Person p = (Person)super.clone();
+        // 让clone出来的Person对象的loc引用，指向loc clone出来的新loc对象
         p.loc = (Location)loc.clone();
         return p;
     }
 }
 
 class Location implements Cloneable {
+    // String虽然是引用类型，但是它指向常量池，虽然一开始p1p2的street都指向bj但是当修改p1的street为sh时，
+    // 不会改变常量池的bj的数值，而是会让p1的street引用指向常量池sh，而p2还是指向bj
     String street;
     int roomNo;
 
