@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mashibing.dp.mybatisPlus.dao.dbDao">
+    <resultMap id="BaseResultMap" type="com.mashibing.dp.mybatisPlus.domain.Teacher">
+        <id column="id" property="userId"/>
+        <result column="teachername"  property="teacherName"/>
+        <result column="teacherid"  property="teacherId"/>
+        <result column="email"  property="email"/>
+        <result column="phone"  property="phoneNumber"/>
+        <result column="subject" property="subject"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,teachername,teacherid,email,phone,subject
+    </sql>
+    <select id="queryTeachers" resultMap="BaseResultMap" resultType="com.mashibing.dp.mybatisPlus.domain.Teacher">
+        select
+        <include refid="Base_Column_List"/>
+        from
+        teacher_info t
+        <trim prefix="where" prefixOverrides="AND |OR">
+        <if test="null != name and name != ''">
+            t.teachername = #{name}
+        </if>
+        <if test="null != subject and subject != ''">
+            and t.subject = #{subject}
+        </if>
+        </trim>
+        order by t.teacherid DESC
+    </select>
+    <insert id="insertTeacherBySelectKey" parameterType="com.mashibing.dp.mybatisPlus.domain.Teacher" >
+        <selectKey keyProperty="userId" order="BEFORE" resultType="java.lang.Integer">
+            SELECT max(id)+1 from teacher_info
+        </selectKey>
+        insert into teacher_info (id,teachername,email) values(#{userId},#{teacherName},#{email})
+    </insert>
+    <select id="queryTeacherByChooseWhen" resultMap="BaseResultMap" resultType="com.mashibing.dp.mybatisPlus.domain.Teacher">
+    select
+    <include refid="Base_Column_List"/>
+    from
+        teacher_info t
+    where 1=1
+    <choose>
+        <when test="name != null and name != ''">
+            and t.teachername = #{name}
+        </when>
+        <when test="teacherid != null and teacherid != ''">
+            and t.teacherid = #{teacherid}
+        </when>
+        <otherwise>
+            and t.id = 1
+        </otherwise>
+    </choose>
+    </select>
+
+    <select id="queryTeacherByLike" resultMap="BaseResultMap" resultType="com.mashibing.dp.mybatisPlus.domain.Teacher">
+        select
+            <include refid="Base_Column_List"/>
+            from
+                teacher_info t
+        <where>
+            <if test="ids != null and ids.length > 0">
+                t.id in
+            <foreach collection="ids" item="id" separator="," open="(" close=")">
+                #{ id ,jdbcType=INTEGER}
+            </foreach>
+            </if>
+            <if test="names != null and names.length > 0">
+            and (
+            <trim suffixOverrides="or">
+            <foreach collection="names" item="name">
+             t.teachername like "%"#{ name,jdbcType=VARCHAR}"%" or
+            </foreach>
+            </trim>
+            )
+            </if>
+        </where>
+    </select>
+    <update id="updateTeacherBySet">
+    update teacher_info
+    <set>
+        <if test="name != null and name != ''">
+            teachername = #{name,jdbcType=VARCHAR},
+        </if>
+        <if test="subject != null and subject != ''">
+            subject = #{subject,jdbcType=VARCHAR}
+        </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+    </update>
+    
+    <select id="selectTeachersByBindAndScript" resultType="com.mashibing.dp.mybatisPlus.domain.Teacher" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from
+        teacher_info t
+        <where>
+        <bind name="BindName" value="'%' + aTeacher.getTeacherName() + '%'"/>
+        <if test="aTeacher != null and aTeacher != ''">
+        t.teachername like #{BindName}
+        </if>
+        </where>
+    </select>
+
+</mapper>
