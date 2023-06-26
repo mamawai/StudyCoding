@@ -1,6 +1,9 @@
 package com.mashibing.dp.state.thread;
 
-public class RunningState extends ThreadState_ {
+import static com.mashibing.dp.state.thread.Action.msg.end;
+import static com.mashibing.dp.state.thread.Action.msg.start;
+
+public class RunningState implements ThreadState_ {
     private Thread_ t;
 
     public RunningState(Thread_ t) {
@@ -8,12 +11,18 @@ public class RunningState extends ThreadState_ {
     }
 
     @Override
-    void move(Action input) {
-
+    public void move(Action input) {
+        if(input.getMsg()== end) {
+            t.state = new TerminatedState(t);
+            t.run();
+        }
     }
 
     @Override
-    void run() {
-
+    public void run() {
+        System.out.println("运行一个线程");
+        Action action = new Action();
+        action.setM(end);
+        t.move(action);
     }
 }

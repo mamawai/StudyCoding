@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="ASM的学习及其他的一些修改">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ConcreteCommandA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ConcreteCommandB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ReceiverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/CommandMacroMMY/ReceiverB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Invoker.java" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="备忘录模式学习">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/CanRaffleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/DispenseOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/NoRaffleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/RaffleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +36,12 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -131,6 +141,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/v2/MM.java" />
       </list>
     </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -254,6 +267,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main&quot;,
@@ -265,7 +280,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.6068966&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;e3bff1ed9181686f9f47046e622dc67b&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -286,8 +302,16 @@
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\resources\mybatis\mapper" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\resources\mybatis.mapper" />
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources" />
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mashibing.dp.mybatisPlus.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mashibing.dp.state.thread" />
@@ -302,26 +326,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.mashibing.dp.CommandMacroMMY.Client">
-    <configuration name="ClassTransformerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.ASM.ClassTransformerTest" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.ASM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.mashibing.dp.state.lottery.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.bridge.MMYBridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.state.thread.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.bridge.MMYBridge.*" />
+          <option name="PATTERN" value="com.mashibing.dp.state.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +340,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Invoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.Invoker" />
+    <configuration name="com.mashibing.dp.state.lottery.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.state.lottery.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.*" />
+          <option name="PATTERN" value="com.mashibing.dp.state.lottery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,46 +353,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.command.Main" />
+    <configuration name="DbServiceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.command.*" />
+          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mashibing.dp.CommandMacroMMY.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.CommandMacroMMY.Client" />
+    <configuration name="DbServiceTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.CommandMacroMMY.*" />
+          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbServiceTest.testQW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
+      <option name="METHOD_NAME" value="testQW" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.mashibing.dp.CommandMacroMMY.Client" />
-      <item itemvalue="Application.Invoker" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ClassTransformerTest" />
+      <item itemvalue="Application.com.mashibing.dp.state.lottery.Client" />
+      <item itemvalue="JUnit.DbServiceTest.testQW" />
+      <item itemvalue="JUnit.DbServiceTest.test2" />
+      <item itemvalue="JUnit.DbServiceTest.testPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mashibing.dp.CommandMacroMMY.Client" />
-        <item itemvalue="Application.Invoker" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.mashibing.dp.state.lottery.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ClassTransformerTest" />
+        <item itemvalue="JUnit.DbServiceTest.testQW" />
+        <item itemvalue="JUnit.DbServiceTest.testPage" />
+        <item itemvalue="JUnit.DbServiceTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +519,18 @@
       <workItem from="1685672732734" duration="616000" />
       <workItem from="1686102424846" duration="4266000" />
       <workItem from="1686187908801" duration="8634000" />
-      <workItem from="1686273113992" duration="2677000" />
+      <workItem from="1686273113992" duration="3148000" />
+      <workItem from="1686278451205" duration="11015000" />
+      <workItem from="1686532531159" duration="17996000" />
+      <workItem from="1686709244118" duration="18938000" />
+      <workItem from="1686792121853" duration="19970000" />
+      <workItem from="1686877533959" duration="2227000" />
+      <workItem from="1686882033160" duration="18145000" />
+      <workItem from="1687138201000" duration="19850000" />
+      <workItem from="1687309543065" duration="6788000" />
+      <workItem from="1687316927952" duration="15095000" />
+      <workItem from="1687657172584" duration="19402000" />
+      <workItem from="1687749519318" duration="3428000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -600,7 +644,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686273463478</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="命令模式（宏命令）">
+      <created>1686277714690</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686277714690</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mybatis-plus学习">
+      <created>1687674121603</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687674121603</updated>
+    </task>
+    <task id="LOCAL-00019" summary="prototype原型（克隆)模式学习">
+      <created>1687675444286</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687675444286</updated>
+    </task>
+    <task id="LOCAL-00020" summary="备忘录模式学习">
+      <created>1687676058566</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687676058566</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -643,7 +715,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -668,7 +740,11 @@
     <MESSAGE value="Iterator模式学习/附加修改了SpringAOP的一些内容" />
     <MESSAGE value="Bridge Pattern" />
     <MESSAGE value="ASM的学习及其他的一些修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="ASM的学习及其他的一些修改" />
+    <MESSAGE value="命令模式（宏命令）" />
+    <MESSAGE value="mybatis-plus学习" />
+    <MESSAGE value="prototype原型（克隆)模式学习" />
+    <MESSAGE value="备忘录模式学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="备忘录模式学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,6 +844,51 @@
           <line>64</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/com/baomidou/mybatisplus/core/override/MybatisMapperProxy.class</url>
+          <line>49</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.3.4/mybatis-plus-extension-3.4.3.4-sources.jar!/com/baomidou/mybatisplus/extension/plugins/inner/PaginationInnerInterceptor.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.5.2/mybatis-plus-extension-3.5.2-sources.jar!/com/baomidou/mybatisplus/extension/plugins/inner/PaginationInnerInterceptor.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.10/mybatis-3.5.10-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.5.2/mybatis-plus-core-3.5.2.jar!/com/baomidou/mybatisplus/core/override/MybatisMapperMethod.class</url>
+          <line>99</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.10/mybatis-3.5.10-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Client.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/Client.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/Main.java</url>
           <line>3</line>
@@ -779,6 +900,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Long" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Class)value (slot_2)).name" custom="java.lang.Class" />
