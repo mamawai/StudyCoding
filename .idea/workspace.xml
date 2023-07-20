@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="备忘录模式学习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/CanRaffleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/DispenseOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/DispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/NoRaffleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/RaffleActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="Adapter适配器模式学习">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/TestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lemon/runner/LemonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lemon/steps/LemonStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/lemon.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/json/A.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/NewState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/RunningState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/TerminatedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/ThreadState_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/thread/Thread_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +32,9 @@
         <option value="AnnotationType" />
         <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -84,6 +77,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/lombok/Builder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/lombok/eclipse/handlers/HandleBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.2/spring-webmvc-5.3.2-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.2/spring-webmvc-5.3.2-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.2/spring-webmvc-5.3.2-sources.jar!/org/springframework/web/servlet/mvc/HttpRequestHandlerAdapter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -258,34 +254,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6068966&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e3bff1ed9181686f9f47046e622dc67b&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.6068966",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "e3bff1ed9181686f9f47046e622dc67b",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mashibing.dp.observerMMY.observerAndCOR" />
@@ -302,10 +298,11 @@
       <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\test\resources" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src" />
+      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\resources" />
       <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\resources\mybatis\mapper" />
-      <recent name="C:\Users\mamingyang\IdeaProjects\StudyCoding\src\main\resources\mybatis.mapper" />
-      <recent name="C:\software\git-workspace\DesignPatterns\src\main\resources" />
-      <recent name="C:\software\git-workspace\DesignPatterns\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -326,13 +323,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.mashibing.dp.state.lottery.Client">
+  <component name="RunManager" selected="Application.TestEntity">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.state.thread.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v1.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.state.thread.*" />
+          <option name="PATTERN" value="com.mashibing.dp.adapter.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mashibing.dp.state.lottery.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.state.lottery.Client" />
+    <configuration name="TestEntity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.TestEntity" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.state.lottery.*" />
+          <option name="PATTERN" value="com.mashibing.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,68 +350,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbServiceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.mashibing.dp.adapter.v2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v2.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
+          <option name="PATTERN" value="com.mashibing.dp.adapter.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbServiceTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.mashibing.dp.adapter.v3.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v3.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
+          <option name="PATTERN" value="com.mashibing.dp.adapter.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
-      <option name="METHOD_NAME" value="testPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbServiceTest.testQW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LemonRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
+          <option name="PATTERN" value="com.lemon.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
-      <option name="METHOD_NAME" value="testQW" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.lemon.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.runner.LemonRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.mashibing.dp.adapter.v2.Client" />
+      <item itemvalue="Application.com.mashibing.dp.adapter.v3.Client" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.com.mashibing.dp.state.lottery.Client" />
-      <item itemvalue="JUnit.DbServiceTest.testQW" />
-      <item itemvalue="JUnit.DbServiceTest.test2" />
-      <item itemvalue="JUnit.DbServiceTest.testPage" />
+      <item itemvalue="Application.TestEntity" />
+      <item itemvalue="TestNG.LemonRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mashibing.dp.state.lottery.Client" />
+        <item itemvalue="Application.TestEntity" />
+        <item itemvalue="TestNG.LemonRunner" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.DbServiceTest.testQW" />
-        <item itemvalue="JUnit.DbServiceTest.testPage" />
-        <item itemvalue="JUnit.DbServiceTest.test2" />
+        <item itemvalue="Application.com.mashibing.dp.adapter.v3.Client" />
+        <item itemvalue="Application.com.mashibing.dp.adapter.v2.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +522,20 @@
       <workItem from="1687309543065" duration="6788000" />
       <workItem from="1687316927952" duration="15095000" />
       <workItem from="1687657172584" duration="19402000" />
-      <workItem from="1687749519318" duration="3428000" />
+      <workItem from="1687749519318" duration="4932000" />
+      <workItem from="1687761933824" duration="7630000" />
+      <workItem from="1688020632899" duration="617000" />
+      <workItem from="1688361666409" duration="3520000" />
+      <workItem from="1688367635964" duration="6145000" />
+      <workItem from="1688524202401" duration="9143000" />
+      <workItem from="1688605289177" duration="12397000" />
+      <workItem from="1688696000237" duration="4615000" />
+      <workItem from="1688966374292" duration="6040000" />
+      <workItem from="1689146825251" duration="1358000" />
+      <workItem from="1689645953296" duration="10000" />
+      <workItem from="1689820390865" duration="989000" />
+      <workItem from="1689836034632" duration="97000" />
+      <workItem from="1689836140165" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -672,7 +677,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687676058566</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="State模式学习">
+      <created>1687760990142</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687760990142</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adapter适配器模式学习">
+      <created>1688609296934</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688609296934</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +734,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -744,7 +763,9 @@
     <MESSAGE value="mybatis-plus学习" />
     <MESSAGE value="prototype原型（克隆)模式学习" />
     <MESSAGE value="备忘录模式学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="备忘录模式学习" />
+    <MESSAGE value="State模式学习" />
+    <MESSAGE value="Adapter适配器模式学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter适配器模式学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,11 +824,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/javaObserver/Client.java</url>
           <line>4</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/Client.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/EmailHandler.java</url>
@@ -888,6 +904,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/state/lottery/Client.java</url>
           <line>4</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/observerMMY/observerAndCOR/Client.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/Main.java</url>

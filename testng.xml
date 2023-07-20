@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="futureloan">
+    <test name="登陆测试">
+        <classes>
+            <class name="com.lemon.runner.LemonRunner"></class>
+        </classes>
+    </test>
+</suite>
