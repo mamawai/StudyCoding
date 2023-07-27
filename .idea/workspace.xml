@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="Adapter适配器模式学习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/TestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lemon/runner/LemonRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lemon/steps/LemonStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/lemon.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/json/A.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="Cucumber练习">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/encryptExercise/JasyptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,34 +251,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/mamingyang/IdeaProjects/StudyCoding/src/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.6068966",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "e3bff1ed9181686f9f47046e622dc67b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamingyang/Desktop/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6068966&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e3bff1ed9181686f9f47046e622dc67b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mashibing.dp.observerMMY.observerAndCOR" />
@@ -323,13 +320,13 @@
       <command value="bytecode " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEntity">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v1.Client" />
+  <component name="RunManager" selected="Application.JasyptUtil">
+    <configuration name="JasyptUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.encryptExercise.JasyptUtil" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.adapter.v1.*" />
+          <option name="PATTERN" value="com.mashibing.dp.encryptExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,25 +347,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mashibing.dp.adapter.v2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v2.Client" />
+    <configuration name="DbServiceTest.testEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.adapter.v2.*" />
+          <option name="PATTERN" value="com.mashibing.dp.mybatisPlus.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mashibing.dp.mybatisPlus.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.mybatisPlus.service.DbServiceTest" />
+      <option name="METHOD_NAME" value="testEncrypt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mashibing.dp.adapter.v3.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.dp.adapter.v3.Client" />
+    <configuration name="Demo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.dp.Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.dp.adapter.v3.*" />
+          <option name="PATTERN" value="com.mashibing.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,19 +394,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.mashibing.dp.adapter.v2.Client" />
-      <item itemvalue="Application.com.mashibing.dp.adapter.v3.Client" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.JasyptUtil" />
       <item itemvalue="Application.TestEntity" />
+      <item itemvalue="JUnit.DbServiceTest.testEncrypt" />
+      <item itemvalue="Spring Boot.Demo" />
       <item itemvalue="TestNG.LemonRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JasyptUtil" />
+        <item itemvalue="Spring Boot.Demo" />
+        <item itemvalue="JUnit.DbServiceTest.testEncrypt" />
         <item itemvalue="Application.TestEntity" />
         <item itemvalue="TestNG.LemonRunner" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.mashibing.dp.adapter.v3.Client" />
-        <item itemvalue="Application.com.mashibing.dp.adapter.v2.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -536,6 +536,14 @@
       <workItem from="1689820390865" duration="989000" />
       <workItem from="1689836034632" duration="97000" />
       <workItem from="1689836140165" duration="251000" />
+      <workItem from="1689836468704" duration="2482000" />
+      <workItem from="1689839048269" duration="45000" />
+      <workItem from="1689841761278" duration="733000" />
+      <workItem from="1689910904748" duration="72000" />
+      <workItem from="1690338166416" duration="1098000" />
+      <workItem from="1690339275721" duration="6296000" />
+      <workItem from="1690346900214" duration="14377000" />
+      <workItem from="1690419851776" duration="5174000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -691,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688609296934</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Cucumber练习">
+      <created>1689836679584</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689836679584</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -723,6 +738,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -734,7 +761,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="JUCcode" />
                       </list>
                     </value>
                   </entry>
@@ -765,7 +792,8 @@
     <MESSAGE value="备忘录模式学习" />
     <MESSAGE value="State模式学习" />
     <MESSAGE value="Adapter适配器模式学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter适配器模式学习" />
+    <MESSAGE value="Cucumber练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -867,7 +895,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java</url>
-          <line>100</line>
+          <line>105</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -910,6 +938,11 @@
           <line>6</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/encryptExercise/JasyptUtil.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/dp/ASM/Main.java</url>
           <line>3</line>
@@ -929,6 +962,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Class)value (slot_2)).name" custom="java.lang.Class" />
+        <watch expression="connStrParser" />
       </configuration>
     </watches-manager>
   </component>
