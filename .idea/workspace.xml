@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="Cucumber练习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/encryptExercise/JasyptUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="bd3f28c2-5c05-45ba-b13d-edfcf255266f" name="Default Changelist" comment="加密算法封装类jasypt1.9.3使用练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/dp/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -543,7 +537,7 @@
       <workItem from="1690338166416" duration="1098000" />
       <workItem from="1690339275721" duration="6296000" />
       <workItem from="1690346900214" duration="14377000" />
-      <workItem from="1690419851776" duration="5174000" />
+      <workItem from="1690419851776" duration="10745000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式之责任链，代码写到60%，请大家自己根据视频尝试完成com.mashibing.dp.cor.servlet包下面的servletFilter的写法">
       <created>1556285498852</created>
@@ -706,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689836679584</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="加密算法封装类jasypt1.9.3使用练习">
+      <created>1690428491229</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690428491229</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -793,7 +794,8 @@
     <MESSAGE value="State模式学习" />
     <MESSAGE value="Adapter适配器模式学习" />
     <MESSAGE value="Cucumber练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber练习" />
+    <MESSAGE value="加密算法封装类jasypt1.9.3使用练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="加密算法封装类jasypt1.9.3使用练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -895,7 +897,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/mashibing/dp/mybatisPlus/service/DbServiceTest.java</url>
-          <line>105</line>
+          <line>100</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
